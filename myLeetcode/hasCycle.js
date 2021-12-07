@@ -24,15 +24,37 @@
     //     head = head.next
     // }
     
-    // var hasCycle = function (head) {
-    //     const flag = Symbol();
-    //     while (head) {
-    //       if (head.val === flag) return true;
-    //       head.val = flag;
-    //       head = head.next;
+    // const flag = Symbol();
+    // while (head) {
+    //     if (head.val === flag) return true;
+    //     head.val = flag;
+    //     head = head.next;
+    // }
+    // return false;
+
+    // let set = new Set();
+    // while(head) {
+    //     if(set.has(head)) {
+    //         return true;
     //     }
-    //     return false;
-    //   };
+    //     set.add(head);
+    //     head = head.next;
+    // }
+    // return false;
+
+    // 修改原节点
+    // while (head) {
+    //     if (head.tag) { 
+    //         //访问当前节点时首先判断其是否在之前被访问过
+    //         return head; 
+    //         // 如果被访问过，那么第一个被重复访问的节点即是入环起始节点了，直接返回结果即可
+    //     }
+    //     head.tag = true
+    //     //通过JS对象属性方式添加一个tag属性，其值为true表明当前节点已经被遍历过了
+    //     head = head.next
+    //     //继续遍历下一个节点
+    // }
+    // return false
 
     var mapper = new Map();
     while(head){
