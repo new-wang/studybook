@@ -10,7 +10,11 @@
         - [x]  [快乐数](https://juejin.cn/post/7039628287269666830)
     - 2021/12/10
         - [x]  [反转链表](https://juejin.cn/post/7040013199248195592)
+    - 2021/12/15
+        - [x]  [反转链表II](https://juejin.cn/post/7040013199248195592)
+        - [x]  [k个一组翻转链表](https://juejin.cn/post/7041862839560044580)
 - vue3
     - 2021/12/13
         - [x] [vue3快速入门学习](https://juejin.cn/post/7041146016199868447/)
-        - [] vite + vue
+    - 2021/12/30
+        - [ ] vite + vue
