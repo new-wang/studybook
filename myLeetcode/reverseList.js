@@ -90,7 +90,7 @@ var reverseList = function(head) {
       prev = cur;
       cur = next;
       //ES6解构赋值，curr.next和prev反向
-      //[curr.next, prev, curr] = [prev, curr, curr.next];
+      //[cur.next, prev, cur] = [prev, cur, cur.next];
     }
     return prev;
   };
