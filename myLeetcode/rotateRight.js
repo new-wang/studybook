@@ -32,13 +32,15 @@ var rotateRight = function (head, k) {
         cur = cur.next;
         n++;
     }
-    // 将链表尾节点与头节点相连，闭合为环
-    cur.next = head;
+
     // 实际移动步数 （k为n倍数时，无需处理）
     let add = n - k % n;
     if (add === n) {
         return head;
     }
+    
+    // 将链表尾节点与头节点相连，闭合为环
+    cur.next = head;
 
     // 得到新链表的最后一个节点
     while (add) {
