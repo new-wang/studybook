@@ -23,3 +23,5 @@
 - vue3
     - 2021/12/13
         - [x] [vue3快速入门学习](https://juejin.cn/post/7041146016199868447/)
+    - 2022/01/06
+        - [x] [vue-router4.x](https://juejin.cn/post/7049974026650779661/)
